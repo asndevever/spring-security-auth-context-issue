@@ -1,0 +1,14 @@
+# The Root Query for the application
+
+schema {
+    # The query root.
+    query : Query
+
+}
+
+type Query {
+    dummyQuery (dummyQueryInput: String!): String!
+}
+
+
+
